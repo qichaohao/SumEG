@@ -258,7 +258,7 @@ def parse_args():
     p.add_argument("--run_rouge", type=str2bool, default=True)
     p.add_argument("--refs_path", type=str, default="data/dialogsum/test.json")
     p.add_argument("--api_url", type=str, default=API_URL)
-    p.add_argument("--api_key", type=str, default="sk-xhigfntcupcfpcumberfhwbgxjtbbyugsszyvnknebtinvbg")
+    p.add_argument("--api_key", type=str, default="")
     p.add_argument("--base_backoff", type=float, default=RETRY_BACKOFF)
     p.add_argument("--sleep_between", type=float, default=SLEEP_BETWEEN_REQUESTS)
     p.add_argument("--temperature", type=float, default=0.7)
