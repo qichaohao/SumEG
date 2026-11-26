@@ -576,7 +576,7 @@ def parse_args():
     parser.add_argument("--dialogues_path",type=str,default="data/samsum/test.json",help="测试集对话文件路径（JSONL格式）")
     parser.add_argument("--output_path",type=str,default="data/samsum/final/1-qwen3-8b-refined-predictions.txt",help="输出文件路径")
     parser.add_argument("--api_url",type=str,default=API_URL,help="API 端点 URL")
-    parser.add_argument("--api_key",type=str,default="sk-ncpvakzubqccpvhpjcdyyrgildsvamwasrhmqplnpzwsxcjb",help="API Key")
+    parser.add_argument("--api_key",type=str,default="",help="API Key")
     parser.add_argument("--model_name",type=str,default="Qwen/Qwen3-8B",help="模型名称")
     parser.add_argument("--max_iterations",type=int,default=MAX_ITERATIONS,help="最大迭代次数（默认3，作为保险）")
     parser.add_argument("--temperature",type=float,default=0.7,help="生成温度")
