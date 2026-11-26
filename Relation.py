@@ -9,7 +9,7 @@ from typing import List, Optional
 # === SiliconFlow API 配置 ===
 API_URL = "https://api.siliconflow.cn/v1/chat/completions"
 MODEL_NAME = "deepseek-ai/DeepSeek-V3"
-API_KEY = "sk-qxbctwhswdbnmhpobtshejniudvutcqsbusswvwveldwiwqv"
+API_KEY = ""
 
 # ====== 可配置项 ======
 MAX_RETRIES = 10
